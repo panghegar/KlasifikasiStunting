@@ -1,0 +1,30 @@
+{
+  "model_type": "Decision Tree",
+  "parameters": {
+    "max_depth": 6,
+    "min_samples_split": 20,
+    "min_samples_leaf": 10,
+    "criterion": "gini",
+    "class_weight": "balanced"
+  },
+  "features_used": [
+    "Umur (bulan)",
+    "Jenis Kelamin Encoded",
+    "Age_Groups",
+    "Height_Gender_Interaction",
+    "Height_Age_Ratio"
+  ],
+  "performance": {
+    "test_accuracy": 0.8515981735159818,
+    "test_precision": 0.7337594573441168,
+    "test_recall": 0.993114406779661,
+    "test_f1": 0.8439609902475619,
+    "cv_accuracy_mean": 0.8552087049589725,
+    "cv_accuracy_std": 0.0019488405684977082,
+    "cv_f1_mean": 0.8473568193665993,
+    "cv_f1_std": 0.0017160667807780154,
+    "cv_precision_mean": 0.7381826251753252,
+    "cv_recall_mean": 0.9944383138380049
+  },
+  "training_date": "2025-05-26 11:18:41"
+}
