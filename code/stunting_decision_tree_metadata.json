@@ -4,7 +4,7 @@
     "max_depth": 6,
     "min_samples_split": 20,
     "min_samples_leaf": 10,
-    "criterion": "gini",
+    "criterion": "entropy",
     "class_weight": "balanced"
   },
   "features_used": [
@@ -15,16 +15,16 @@
     "Height_Age_Ratio"
   ],
   "performance": {
-    "test_accuracy": 0.8515981735159818,
-    "test_precision": 0.7337594573441168,
-    "test_recall": 0.993114406779661,
-    "test_f1": 0.8439609902475619,
-    "cv_accuracy_mean": 0.8552087049589725,
-    "cv_accuracy_std": 0.0019488405684977082,
-    "cv_f1_mean": 0.8473568193665993,
-    "cv_f1_std": 0.0017160667807780154,
-    "cv_precision_mean": 0.7381826251753252,
-    "cv_recall_mean": 0.9944383138380049
+    "test_accuracy": 0.8558076484018264,
+    "test_precision": 0.7979715360706691,
+    "test_recall": 0.861228813559322,
+    "test_f1": 0.8283943279273159,
+    "cv_accuracy_mean": 0.8188726364609348,
+    "cv_accuracy_std": 0.0277211490959338,
+    "cv_f1_mean": 0.8061006938418014,
+    "cv_f1_std": 0.013701228396789927,
+    "cv_precision_mean": 0.7222819181690444,
+    "cv_recall_mean": 0.9248730964467005
   },
-  "training_date": "2025-05-26 11:18:41"
+  "training_date": "2025-06-01 21:59:08"
 }
